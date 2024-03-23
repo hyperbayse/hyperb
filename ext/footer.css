@@ -1,0 +1,55 @@
+:root {
+    --trans-black: rgba(0, 0, 0, 0.6);
+    --black: black;
+    --white: white;
+    --blue: rgb(0, 60, 255);
+    --l-blue: rgb(69, 127, 253);
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    color: var(--black);
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    height: 500px;
+}
+#footer {
+    background-color: var(--trans-black);
+    padding: 0.7rem 1rem; margin: 0;
+    width: 100%;
+}
+.logo-footer {
+    width: 7rem;
+    height: auto;
+    display: block;
+    margin: 0 0 1rem 0; padding: 0;
+    vertical-align: middle;
+}
+.quicklink {
+    position: relative;
+    margin: 0; padding: 0;
+}
+#footer p {
+    color: var(--white);
+    margin: 0; padding: 0.3rem 0;
+    font-size: 0.9rem;
+    text-decoration: underline;
+}
+.quicklink li {
+    list-style-type:none;
+    padding: 0 1rem;
+    vertical-align: middle;
+    font-size:small;
+    margin: 0; padding: 0.2rem 0;
+} a {
+    color: var(--white);
+    text-decoration: none;
+}
+.copy {
+    margin: 0; padding: 0.5rem;
+    background-color: var(--l-blue);
+    color: var(--white);
+    font-size: 0.9rem;
+    text-align: center;
+} .copy p {padding: 0; margin: 0;}

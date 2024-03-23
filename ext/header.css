@@ -1,0 +1,42 @@
+:root {
+    --trans-black: rgba(0, 0, 0, 0.6);
+    --black: black;
+    --white: white;
+    --blue: rgb(0, 60, 255);
+    --l-blue: rgb(69, 127, 253);
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    color: var(--black);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#header {
+    background-color: var(--trans-black);
+    padding: 0.7rem 1rem; margin: 0;
+    width: 100%;
+}
+.logo {
+    width: 7rem;
+    height: auto;
+    display: inline-block;
+    margin: 0; padding: 0;
+    vertical-align: middle;
+}
+.nav-bar {
+    position: relative;
+    display: inline-block;
+    float: right;
+    margin: auto 2rem;
+}
+.nav-bar li {
+    display: inline-block;
+    list-style: none;
+    padding: 0 1rem;
+    vertical-align: middle;
+    font-size:small;
+} a {
+    color: var(--white);
+    text-decoration: none;
+}

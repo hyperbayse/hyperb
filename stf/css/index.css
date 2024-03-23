@@ -1,0 +1,36 @@
+* {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+body {
+    background-color: white; margin: 0; padding: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* embed {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: 0; padding: 0;
+    text-align: center;  
+} */
+
+.hb {
+    color: grey;
+    font-size: 5em;
+    text-align: center;
+    margin: 0;
+}
+
+.check_back {
+    padding-top: 0.5em;
+    color: rgb(64, 169, 255);
+    text-align: center;
+    font-size: 3em;
+    margin: auto;
+    font-style: italic;
+}
+
+div {
+    
+
+}
